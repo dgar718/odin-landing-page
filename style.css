@@ -12,15 +12,22 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
     background: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 22px 300px 0;
+}
+
+.header-index {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -32,6 +39,14 @@ body {
     display: flex;
 }
 
+.links li a,
+.hero-title p,
+.placeholder,
+.sign-up {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 .links li {
     list-style: none;
     margin: 0;
@@ -40,6 +55,40 @@ body {
 
 .links li a {
     text-decoration: none;
-    color: #F9FAF8;
-    padding: 0 12px;
+    padding-left: 24px;
+}
+
+.hero-text {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+.hero-title h2 { 
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;    
+}
+
+
+.placeholder {
+    background: #737a80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 500px;
+    height: 200px;
+}
+
+.hero-title {
+    margin-right: 32px;
+}
+
+.sign-up {
+    background: #3882F6;
+    padding: 8px 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
 }
