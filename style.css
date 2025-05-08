@@ -102,10 +102,10 @@ body {
 }
 
 .box {
-    width: 148px;
-    height: 148px;
+    width: 164px;
+    height: 164px;
     border: #3882F6 3px solid;
-    border-radius: 8px;
+    border-radius: 16px;
     margin-bottom: 5px;
 }
 
@@ -124,11 +124,12 @@ body {
 }
 
 .info {
-    max-width: 149px;
+    max-width: 165px;
 }
 
 .info p {
     color: #4b4b4b;
+    font-size: 18px;
 }
 
 .boxes {
