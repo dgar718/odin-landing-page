@@ -135,3 +135,27 @@ body {
 .boxes {
     margin-bottom: 100px;
 }
+
+.quote-container {
+    background: #E5E7EB;
+    padding: 150px 0px 100px 0px; 
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 240;
+}
+
+.quote-textarea {
+    width: 800px;
+}
+
+.quote-textarea .author {
+    text-align: end;
+    font-size: 26px;
+    font-weight: 700;
+}
