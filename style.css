@@ -77,7 +77,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 1 500px;
+    flex: 0 0 500px;
     height: 200px;
     min-width: 200px;
 }
@@ -102,7 +102,35 @@ body {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 148px;
+    height: 148px;
     border: #3882F6 3px solid;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+}
+
+.info-container h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 40px 0px;
+}
+
+.info {
+    max-width: 149px;
+}
+
+.info p {
+    color: #4b4b4b;
+}
+
+.boxes {
+    margin-bottom: 100px;
 }
