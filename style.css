@@ -159,3 +159,35 @@ body {
     font-size: 26px;
     font-weight: 700;
 }
+
+.call-action {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callbox {
+    height: 150px;
+    width: 1150px;
+    background: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.callbox h6 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.callbox button {
+    
+    background: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 2px solid;
+    border-radius: 8px;
+    padding: 8px 40px;
+}
